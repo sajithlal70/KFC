@@ -1,0 +1,467 @@
+@font-face{
+  font-family:National 2 Regular;
+  src:url(fonts/national-regular.otf)format(otf);
+}
+@font-face{
+  font-family:National 2 medium;
+  src:url(fonts/national-medium.otf)format(otf);
+}
+@font-face{
+  font-family:National 2 bold;
+  src:url(fonts/TestNational-Bold-BF663c3f4919b8c.otf)format(otf);
+}
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+body{
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+}
+.location-data{
+  display:flex;
+  top:0;
+  left:0;
+  right:0;
+  flex-direction:row;
+  justify-content:center;
+  padding-top:9px;
+  padding-bottom:9px;
+  height:50px;
+  border-bottom:1px solid rgba(92, 92, 92, 0.254);
+}
+.location-logo{
+  height:18px;
+  width:13px;
+  margin-right:10px;
+  border:none;
+  margin-top:6px;
+}
+.location-description{
+  font-family: National 2 Regular,sans-serif;
+  font-weight:400;
+  font-size:15px;
+  color:#202124;
+  height:32px;
+  padding-top:5px;
+  line-height:24px;
+}
+.location-button{
+  height:32px;
+  width:99px;
+  font-size:12px;
+  font-family:National 2 medium;
+  font-weight:medium;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:9px;
+  padding-right:9px;
+  margin-left:23px;
+  background-color:#202124;
+  border:1px bold #494949;
+  color:white;
+  border-radius:15px;
+  cursor:pointer;
+}
+nav{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  padding-left:130px;
+  padding-right:150px;
+  height:100px;
+  width:100%;
+  top:50px;
+  left:0;
+  right:0;
+  z-index:100;
+}
+.left-side,.right-side{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+.kfc-logo{
+  height:23px;
+  width:76px;
+  margin-top:5px;
+  margin-right:43px;
+  cursor:pointer;
+}
+.nav-elements,.account-nav,.cart-nav{
+  display:flex;
+  align-items:center;
+  margin-top:10px;
+  cursor:pointer;
+
+}
+.account-nav{
+  height:32px;
+  border-right:1px solid rgba(143, 143, 143, 0.493);
+  padding-right:3px;
+  margin-right:10px;
+}
+
+.nav-menu,.nav-menu1{
+  font-size:14px;
+  font-weight:bold;;
+  font-family:sans-serif;
+  margin-right:38px;
+}
+.account-logo,.nav-menu1{
+  margin-right:12px;
+}
+.cart-logo{
+  width:51.2px;
+  width:51.2px;
+  padding-left:0px;
+}
+.nav-entity{
+  font-size:14px;
+  font-weight:bold;;
+  font-family:sans-serif;
+}
+.head{
+  height:68px;
+  width:100%;
+  background-color:#202124;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  left:0px;
+  right:0px;
+  z-index:-1px;
+}
+.header-title{
+  color:white;
+  font-size:14px;
+  font-family:sans-serif;
+  font-weight:bold;
+  margin-right:15px;
+}
+.order-button{
+  color:white;
+  font-family:sans-serif;
+  font-weight:bold;
+  width:165px;
+  height:44.8px;
+  border-radius:22.4px;
+  font-size:14.4px;
+  border:none;
+  cursor:pointer;
+  background-color:#e4002b;
+  transition:opacity 0.15s;
+  }
+  .order-button:hover{
+  opacity: 0.8;
+  }
+  .banner-image{
+    height:404px;
+    width:100%;
+    left:0px;
+    right:0px;
+    cursor:pointer;
+  }
+  .general-menu-container{
+    margin-left:270px;
+    margin-right:80px;
+    margin-top:50px;
+    margin-bottom:60px;
+  }
+  .browser-title{
+    height:198px;
+    width:1103px;
+    display:flex;
+    
+  }
+  .title{
+    width:287px;
+    height:64px;
+    margin-right:31px;
+    font-family:sans-serif;
+    font-weight:bold;
+    line-height:43px;
+    color:#202124;
+    margin-top:100px;
+    margin-bottom:55px;
+    font-size:25px;
+
+  }
+  .horizontal-line{
+    width:744px;
+    height:78px;
+    margin-right:40px;
+    border-top:2px solid #e3e3e3;
+    margin-top:120px;
+  }
+  .main-cards-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:35px;
+    row-gap:50px;
+  
+  }
+  .cards-container{
+    width:257px;
+    height:257px;
+    background-color:#f8f7f5;
+  }
+
+  .cards-images{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+    cursor:pointer;
+
+  }
+  .cards-images-last{
+    width:100%;
+    height:190px;
+    object-fit:contain;
+    cursor:pointer;
+  }
+  .card-title-last{
+   
+    height:45px;
+    font-size:16px;
+    font-family:sans-serif;
+    color:#202124;
+    line-height:22px;
+    text-align:center;
+    cursor:pointer;
+
+  }
+  .arrow{
+    height:14px;
+    width:29px;
+    margin-left:10px;
+    object-position:center;
+    cursor:pointer;
+  }
+  .card-title{
+    height:45px;
+    font-size:14px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:#202124;
+    line-height:22px;
+    text-align:center;
+    margin-top:16px;
+    cursor:pointer;
+  }
+  .offer-container{
+    width:100%;
+    padding-left:206px;
+    background-color:#202124;
+  }
+  .three-bars{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:30px;
+  }
+  .red-bar{
+    height:41px;
+    width:16px;
+    background-color: rgb(228, 0, 43);
+    margin-right:20px;
+  }
+  .offers-container-title{
+    display:flex;
+    flex-direction:row;
+    height:51px;
+    align-items:start;
+    justify-content:space-between;
+    color:white;
+    padding-top:30px;
+    padding-bottom:40px;
+    
+  }
+  .title-offer{
+    font-size:30px;
+    font-family:sans-serif;
+    font-weight:bold;
+  }
+  .offer-right-side{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    margin-right:150px;
+    margin-top:10px;
+  }
+  .deals-button{
+    color:white;
+    font-family:sans-serif;
+    cursor:pointer;
+  }
+  .meals-cards{
+    width:310px;
+    height:398px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+  }
+  .meals-image-container{
+    height: 59%;
+    object-fit: cover;
+  
+  }
+  .meals-image{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    cursor:pointer;
+  }
+
+  .meals-title{
+    color:rgb(228, 0, 43);;
+    font-size:27px;
+    font-family:sans-serif;
+    font-weight:bold;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+    cursor:pointer;
+    
+
+  }
+  .meals-text-container{
+    background-color:#f8f7f5;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+  .meals-description{
+    color:#494949;
+    font-size:14px;
+    font-family:sans-serif;
+    text-align:center;
+    padding:5px 15px 0px 15px;
+    margin-bottom:0px;
+    cursor:pointer;
+  }
+  .meals-buttons{
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 20px 5px 20px;
+  }
+  .view-details{
+    font-family:sans-serif;
+    font-size:14px;
+    color:#494949;
+    cursor:pointer;
+  }
+  .apply-button{
+    font-size: 14px;
+    padding:10px 44px;
+    border-radius:20px;
+    text-align: center;
+    background-color:transparent;
+    border: 1px solid #494949;
+    cursor:pointer;
+    transition:background-color,color 0.15s;
+
+  }
+  .apply-button:hover{
+    background-color:#202124;
+    color:white;
+  }
+  .meals-containers{
+    display:grid;
+    display:grid;
+    grid-template-columns: 315px 315px 315px;
+    column-gap:35px;
+    row-gap:50px;
+    margin-top:40px;
+    padding-bottom:20px;
+  }
+  footer{
+    background-color:#202124;
+  }
+  .line-separator{
+    width:1034px;
+    height:3px;
+    background-color:#494949;
+    margin-top:50px;
+  }
+  .nav-container{
+    padding:140px 73px 140px 73px;
+    display:flex;
+  } 
+  .find-kfc-container{
+    display:flex;
+  }
+  .kfc-footer-logo{
+    width:60px;
+    height:60px;
+    cursor:pointer;
+  }
+  .footer-navs{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    margin-left:150px;
+  }
+  ul{
+    list-style-type:none;
+    margin-right:20px;
+    font-family:sans-serif;
+    font-size:14px;
+    line-height:30px;
+  }
+  .location-red{
+    width:11px;
+    height:15px;
+    margin-right:9px;
+  }
+.find-kfc-container{
+  margin-left:40px;
+  margin-right:80px;
+}
+.find-kfc,a{
+  color:white;
+  font-family:sans-serif;
+  font-size:13px;
+}
+.apps-logo{
+  margin-right:20px;
+}
+.organisation{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:100%;
+  text-align:center;
+
+}
+.copy-right{
+  padding-left:40%;
+  font-family:sans-serif;
+  font-size: 12px;
+  text-align: center;
+  opacity: .9;
+  line-height: 12px;
+  color: #dbdbdb;
+}
+.social-m-container{
+  padding-right:120px;
+  margin-bottom:30px;
+
+}
+.social-m,.apps-logo,.apps-logo2{
+  cursor:pointer;
+}
+.offers-container-title{
+  display:flex;
+}
+
+
